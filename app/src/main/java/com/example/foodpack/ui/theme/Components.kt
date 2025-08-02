@@ -47,8 +47,8 @@ class BottomAppBarCutoutShape(
                 centerX, notchDepth
             )
             cubicTo(
-                centerX - notchRadius * 0.66f, notchDepth,
-                centerX - notchRadius * 0.66f, 0f,
+                centerX + notchRadius * 0.66f, notchDepth,
+                centerX + notchRadius * 0.66f, 0f,
                 centerX + notchRadius, 0f
             )
 
